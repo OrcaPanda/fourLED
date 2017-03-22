@@ -3,7 +3,7 @@
 
 volatile int state = 0;
 
-void my_example(void){
+void example(void){
 	// This example alternates between red and green depending on a button push
 	int row, col;
 	char colour;
@@ -25,24 +25,24 @@ void my_example(void){
 	return;	
 }
 
-void PB_A_my_example(void){
+void PB_A_example(void){
 	// Callback for Button A
 	state ^= 1;
 	return;
 }
-void PB_B_my_example(void){
+void PB_B_example(void){
 	// Callback for Button B
 }
-void PB_1_my_example(void){
+void PB_1_example(void){
 	// Callback for Button 1
 }
-void PB_2_my_example(void){
+void PB_2_example(void){
 	// Callback for Button 2
 }
-void PB_3_my_example(void){
+void PB_3_example(void){
 	// Callback for Button 3
 }
-void PB_4_my_example(void){
+void PB_4_example(void){
 	// Callback for Button 4
 }
 
