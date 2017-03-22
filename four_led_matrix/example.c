@@ -21,12 +21,14 @@ void my_example(void){
 				M[row][col] = colour;
 			}
 		}
-	}	
+	}
+	return;	
 }
 
 void PB_A_my_example(void){
 	// Callback for Button A
 	state ^= 1;
+	return;
 }
 void PB_B_my_example(void){
 	// Callback for Button B
