@@ -16,7 +16,7 @@ void example(void){
 		for(row = 0; row < 16; row++){
 			for(col = 0; col < 16; col++){
 				//M is a global variable representing what should be written to the display
-				//M can take on values of 0, 'r', 'g', for off, red, and green, respectively
+				//M can take on values of 0, 'r', 'g', 'r'+'g', for off, red, green, and both, respectively
 				//M is written asynchronously, with each colour channel updated once every 20ms
 				M[row][col] = colour;
 			}

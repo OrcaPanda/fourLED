@@ -46,7 +46,7 @@
 #define SPI_DIN MOSI
 #define SPI_MISO MISO
 
-LedControl lcg = LedControl(SPI_DIN, SPI_CLK, SPI_CS_R, 4);
+LedControl lcg = LedControl(SPI_DIN, SPI_CLK, SPI_CS_G, 4);
 
 void setup() {
   // put your setup code here, to run once:
